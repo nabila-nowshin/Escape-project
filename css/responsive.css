@@ -1,0 +1,105 @@
+@media screen and (max-width:1024px) {
+    .container {
+    width: 680px;
+}  
+}
+
+
+@media screen and (max-width:767px) {
+    .container {
+    width: 300px;
+}  
+
+
+.section-heading h2 {
+    font-size: 30px;
+    
+}
+
+.service-content h2 {
+    font-size: 20px;
+}
+
+.home  header{
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner h2 {
+    font-size: 28px;
+}
+
+
+.banner button {
+    padding: 8px 23px;
+}
+
+
+.feature-inner {
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+section.feature-two .feature-inner {
+    flex-direction: column-reverse;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.service-inner {
+    flex-direction: column;
+}
+
+.service-col {
+    width: 100%;
+}
+
+.testimonial-box {
+    flex-direction: column;
+    gap: 30px;
+}
+
+.testimonial-box-content {
+    flex-basis: auto;
+}
+
+.testimonial-inner2 .testimonial-box {
+    flex-direction: column;
+    gap: 30px;
+}
+
+.clients {
+    flex-wrap: wrap;
+    height: auto;
+    gap: 33px;
+}
+
+
+
+.team-content {
+    flex-direction: column;
+    gap: 50px;
+}
+
+.team-social-links {
+    height: auto;
+    gap: 10px;
+}
+
+.footer-top.section-padding {flex-direction: column;/* width: auto; */gap: 50px;}
+
+.footer-top-col1 {
+    width: 100%;
+}
+
+.footer-contact-list {
+    flex-direction: column;
+}
+
+}
